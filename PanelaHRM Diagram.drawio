@@ -1,41 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T21:59:45.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="WJaTdVPDzcuj9_H2lowB" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-10T00:49:03.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="MIdSjsSJpO7SDzkS5tYg" version="19.0.3" type="github">
   <diagram id="7cCDwksuUV1M2PXKsDtS" name="Page-1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="418" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="clIJVs1NPhCd1CZDtegX-2" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Usuarios&lt;/b&gt;&lt;/div&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;u&gt;usuario_id: integer(PK)&lt;/u&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;login: varchar(35) NN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;password: varchar(35) NN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nickname: varchar(35) NN&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;email: varchar(40) NN UNIQUE&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="60" y="350" width="190" height="140" as="geometry" />
+          <mxGeometry x="60" y="310" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="clIJVs1NPhCd1CZDtegX-3" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Categorias&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;table style=&quot;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;u&gt;categorias_id: integer (PK)&lt;/u&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;categoria: varchar(50)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="clIJVs1NPhCd1CZDtegX-3" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Categorias&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;table style=&quot;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;u&gt;categorias_id: integer (PK)&lt;br&gt;&lt;/u&gt;cand_id: integer (FK)&lt;br style=&quot;text-align: center;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;categoria: varchar(50)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="60" y="540" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="clIJVs1NPhCd1CZDtegX-5" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Etiquetas&lt;/span&gt;&lt;/div&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;u&gt;etiquetas_id: integer (PK)&lt;/u&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;etiquetas: varchar(50)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="60" y="660" width="150" height="60" as="geometry" />
+        <mxCell id="clIJVs1NPhCd1CZDtegX-5" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Etiquetas&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;u&gt;etiquetas_id: integer (PK)&lt;br&gt;&lt;/u&gt;cand_id: integer (FK)&lt;br style=&quot;text-align: center;&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;etiquetas: varchar(50)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="60" y="650" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="clIJVs1NPhCd1CZDtegX-7" value="Curriculums&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="890" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="560" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="clIJVs1NPhCd1CZDtegX-8" value="&lt;b&gt;Educacion&lt;/b&gt;&lt;br&gt;&lt;u&gt;edu_id: integer (PK)&lt;br&gt;&lt;/u&gt;Institución: varchar (255)&lt;br&gt;Disciplina: varchar (255)&lt;br&gt;Mes_ini:&amp;nbsp; varchar (255)&lt;br&gt;año_ini: varchar (50)&lt;br&gt;Mes_fin: varchar(255)&lt;br&gt;año_fin: varchar (255)&lt;br&gt;Descripcion: Text" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="790" width="180" height="150" as="geometry" />
+        <mxCell id="clIJVs1NPhCd1CZDtegX-8" value="&lt;b&gt;Educacion&lt;/b&gt;&lt;br&gt;&lt;u&gt;edu_id: integer (PK)&lt;br&gt;&lt;/u&gt;cand_id: integer (FK)&lt;br&gt;Institución: varchar (255)&lt;br&gt;Disciplina: varchar (255)&lt;br&gt;Mes_ini:&amp;nbsp; varchar (255)&lt;br&gt;año_ini: varchar (50)&lt;br&gt;Mes_fin: varchar(255)&lt;br&gt;año_fin: varchar (255)&lt;br&gt;Descripcion: Text" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="800" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="clIJVs1NPhCd1CZDtegX-9" value="Experiencia" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="460" width="120" height="60" as="geometry" />
+        <mxCell id="clIJVs1NPhCd1CZDtegX-9" value="&lt;b&gt;Experiencia&lt;/b&gt;&lt;br&gt;&lt;u&gt;Exp_id: integer (PK)&lt;/u&gt;&lt;br&gt;cand_id: integer (FK)&lt;br&gt;Cargo: varchar(255)&lt;br&gt;Empresa: varchar(255)&lt;br&gt;Ubicacion: varchar(255)&lt;br&gt;Fecha_ini: Date&lt;br&gt;Fecha_fin: Date&lt;br&gt;Descripcion: Text" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="400" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="clIJVs1NPhCd1CZDtegX-10" value="&lt;b&gt;Certificaciones&lt;br&gt;&lt;/b&gt;&lt;u&gt;certf_id: integer (PK)&lt;br&gt;&lt;/u&gt;Nombre: vachar (255)&lt;br&gt;Empresa: varchar (255)&lt;br&gt;Mes_exp: varchar (255)&lt;br&gt;año_exp: varchar(255)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="960" y="820" width="160" height="100" as="geometry" />
+        <mxCell id="clIJVs1NPhCd1CZDtegX-10" value="&lt;b&gt;Certificaciones&lt;br&gt;&lt;/b&gt;&lt;u&gt;certf_id: integer (PK)&lt;br&gt;&lt;/u&gt;cand_id: integer (FK)&lt;br&gt;Nombre: vachar (255)&lt;br&gt;Empresa: varchar (255)&lt;br&gt;Mes_exp: varchar (255)&lt;br&gt;año_exp: varchar(255)" style="rounded=1;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="950" y="829.9999999999999" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="clIJVs1NPhCd1CZDtegX-11" value="&lt;b&gt;Idiomas&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;u&gt;idoma_id: integer (PK)&lt;/u&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;idioma: varchar(150)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="100" y="860" width="140" height="60" as="geometry" />
+        <mxCell id="clIJVs1NPhCd1CZDtegX-11" value="&lt;b&gt;Idiomas&lt;/b&gt;&lt;br&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;u&gt;idoma_id: integer (PK)&lt;/u&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;cand_id: integer (FK)&lt;br&gt;idioma: varchar(150)&lt;br&gt;nivel_idoma: varchar (150)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="840" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="clIJVs1NPhCd1CZDtegX-12" value="Intereses" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="595" width="120" height="60" as="geometry" />
+        <mxCell id="clIJVs1NPhCd1CZDtegX-12" value="&lt;b&gt;Intereses&lt;br&gt;&lt;/b&gt;&lt;u&gt;Interes_id: integer (PK)&lt;br&gt;&lt;/u&gt;cand_id: integer (FK)&lt;br&gt;Intereses: varchar(255)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="595" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="clIJVs1NPhCd1CZDtegX-13" value="&lt;b&gt;Idiomas Niveles&lt;br&gt;&lt;/b&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;u&gt;idioma_niv_id: integer (PK)&lt;/u&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;nivel_idoma: varchar (150)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="860" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="clIJVs1NPhCd1CZDtegX-16" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Idiomas Pivot&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;table style=&quot;text-align: center;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;u&gt;idioma_piv_id: integer (PK)&lt;/u&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;idioma_id: integer (FK)&lt;br&gt;idoma_niv_id: integer (FK)&lt;br&gt;cand_id_ integer (FK)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="270" y="710" width="160" height="100" as="geometry" />
+        <mxCell id="9CfJuzqwI8qOCM5cH8Lh-2" value="&lt;b&gt;Reclutamiento&lt;br&gt;&lt;/b&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;u&gt;reclu_id: integer (PK)&lt;/u&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;cand_id: integer (FK)&lt;br&gt;idioma: varchar(150)&lt;br&gt;nivel_idoma: varchar (150)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="840" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
